@@ -1,0 +1,24 @@
+{
+  "name": "G7-Apartments",
+  "version": "1.0.0",
+  "description": "Awesome Web App for G7 Aprtments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.2.1"
+  },
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.0.0",
+    "isotope-layout": "^3.0.5",
+    "jquery": "^3.3.1",
+    "masonry-layout": "^4.2.1",
+    "popper.js": "^1.14.3"
+  }
+}
