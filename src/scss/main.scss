@@ -5,7 +5,6 @@ body {
 }
 
 .wrapper {
-  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -26,13 +25,18 @@ body {
   }
 }
 
-.bazen-cover {
+.g7-cover {
+
+  background: url("../assets/img/cover-1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 80vh;
+  overflow: hidden;
 
   &__title {
     font-size: 5.3rem;
     font-weight: bolder;
-    margin-top: 453px;
-    color: #2E2E30;
+    padding-top: 453px;
+    color: #F5F6F8;
     letter-spacing: -1px;
     line-height: 94px;
   }
@@ -40,34 +44,35 @@ body {
 
 .our-goal {
   margin-top: 6rem;
+  background: #EDEFF4;
+
+  &__title {
+    margin-top: -2rem;
+  }
+
+  &__title--1 {
+    font-size: 4.3rem;
+  }
+
+  &__title--2 {
+    font-size: 4.5rem;
+    font-weight: bold;
+  }
 
   &__agency {
     margin: 0;
     font-size: 0.8rem;
   }
 
-  span {
-    margin: 0;
-    font-size: 0.8rem;
-  }
-
-  &__email {
-    font-size: 0.8rem;
-    font-family: "PT Serif Caption";
-    line-height: 0.8rem;
-    margin-top: 0.8rem;
-  }
-
   &__text {
     font-family: "PT Serif Caption";
-    font-size: 1.2rem;
     line-height: 1.8rem;
-    padding: 0 6rem;
+    color: #808081;
   }
 }
 
 .masonry {
-  margin-top: 9.5rem;
+  background: #393939;
 }
 
 .masonry-grid {
