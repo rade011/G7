@@ -1,0 +1,78 @@
+.g7-cover-about {
+
+  background: $background-dark-gray;
+  background-size: cover;
+  height: 80vh;
+  overflow: hidden;
+
+  &__title {
+    font-size: 5.3rem;
+    font-weight: bolder;
+    padding-top: 10rem;
+    color: #F5F6F8;
+    letter-spacing: -1px;
+    line-height: 94px;
+  }
+
+  &__content {
+    color: #EDEFF4;
+    font-size: 1.4rem;
+  }
+}
+
+.our-goal-about {
+  background: #EDEFF4;
+
+  &__title {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 5.3rem;
+    font-weight: 900;
+  }
+
+  &__title--1 {
+    font-size: 4.7rem;
+    color: #a89474;
+    margin: 0;
+  }
+
+  &__text {
+    font-family: "PT Serif Caption";
+    line-height: 1.8rem;
+    color: #808081;
+  }
+}
+
+.our-goal-about-2 {
+
+  &__title {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 5.3rem;
+    font-weight: 900;
+    line-height: 4rem;
+    span {
+      color: #a89474;
+      line-height: 0;
+      font-size: 6rem;
+      font-family: "Tinos for Powerline", sans-serif;
+      font-weight: 600;
+    }
+  }
+
+  &__title--1 {
+    font-size: 4.7rem;
+    color: #a89474;
+    margin: 0;
+  }
+
+  &__text {
+    font-family: "PT Serif Caption";
+    line-height: 1.8rem;
+    color: #808081;
+  }
+}
+
+.img-main {
+  background: #a89474;
+}
