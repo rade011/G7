@@ -1,0 +1,279 @@
+@import '_variables';
+
+html,
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  color:$font-body-color;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.navbar {
+  background: transparent;
+
+  &__bazen-brand {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-right: auto;
+    color: #000;
+  }
+
+  &__item--gray a {
+    color: #2E2E30;
+    font-size: 1rem;
+  }
+}
+
+.relative {
+  position: relative;
+  z-index: 10;
+
+  p {
+    position: absolute;
+    right: 5%;
+    bottom: -35%;
+    color: #fff;
+  }
+}
+
+.g7-cover {
+
+  background: url("../assets/img/cover-1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 80vh;
+  overflow: hidden;
+
+  &__title {
+    font-size: 5.3rem;
+    font-weight: bolder;
+    padding-top: 453px;
+    color: #F5F6F8;
+    letter-spacing: -1px;
+    line-height: 94px;
+  }
+}
+
+.our-goal {
+  margin-top: 6rem;
+  background: #EDEFF4;
+
+  &__title {
+    margin-top: -3rem;
+  }
+
+  &__title--1 {
+    font-size: 4.7rem;
+    color: #a89474;
+    margin: 0;
+  }
+
+  &__title--2 {
+    font-size: 5rem;
+    font-weight: bolder;
+    line-height: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  &__title--3 {
+    color: #fff;
+    font-size: 5.5rem;
+    font-weight: 400;
+    font-family: "Tinos for Powerline", sans-serif;
+  }
+
+  &__title--4 {
+
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 3.4rem;
+
+    span {
+      color: #a89474;
+      font-size: 4rem;
+      font-family: "Tinos for Powerline", sans-serif;
+      font-weight: 600;
+    }
+  }
+
+  &__link--all {
+    padding: 1rem 3rem 1rem 3rem;
+    background: #a89474;
+    color: #1d2124;
+    margin-bottom: 1rem;
+
+    &:hover {
+      text-decoration: none;
+      color: #F5F6F8;
+    }
+  }
+
+  &__img--out {
+    margin-bottom: -6.3rem;
+    z-index: 1000;
+  }
+
+  &__agency {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+
+  &__text {
+    font-family: "PT Serif Caption";
+    line-height: 1.8rem;
+    color: #808081;
+  }
+}
+
+.masonry {
+  background: #393939;
+  padding: 4.5rem 0;
+}
+
+.masonry-grid {
+  &__item--1 .img{
+    background: url("../assets/img/gridimage.jpg");
+    height: 40.5rem;
+    z-index: 100;
+  }
+
+  &__item--1 .title{
+    height: 8.1rem;
+    text-align: center;
+    padding-top: 2rem;
+    color: #999999
+  }
+
+  &__item--2 .img{
+    background-color: transparent;
+    height: 10rem;
+  }
+
+  &__item--2 .title{
+    height: 26.1rem;
+    text-align: left;
+    font-family: "Tinos for Powerline", sans-serif;
+    h3 {
+      span {
+        font-family: "Tinos for Powerline", sans-serif;
+        font-size: 4rem;
+        line-height: 3rem;
+        font-weight: 700;
+        color: #a89474;
+      }
+      font-size: 4.5rem;
+      line-height: 3rem;
+      font-weight: 700;
+      color: #fff;
+      padding-bottom: 2rem;
+    }
+    p {
+      color: #8f8e8e;
+      font-size: 1.2rem;
+    }
+  }
+
+  &__item--3 .img{
+    background: url("../assets/img/gridimage3.jpg") no-repeat center center;
+    height: 33.5rem;
+  }
+
+  &__item--3 .title{
+    height: 16.1rem;
+    text-align: center;
+    padding-top: 2rem;
+    color: #999999;
+
+    h3 {
+
+      span {
+        font-family: "Tinos for Powerline", sans-serif;
+        font-size: 4rem;
+        line-height: 3rem;
+        font-weight: 700;
+        color: #a89474;
+      }
+
+      font-size: 4.5rem;
+      line-height: 3rem;
+      font-weight: 700;
+      color: #fff;
+      padding-bottom: 2rem;
+    }
+  }
+
+  &__item--4 .img{
+    background: url("../assets/img/gridimage2.jpg") no-repeat center center;
+    height: 33rem;
+    max-width: 100%;
+  }
+
+  &__item--4 .title{
+    height: 10rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    color: #999999;
+    h3 {
+      span {
+        font-family: "Tinos for Powerline", sans-serif;
+        font-size: 4rem;
+        line-height: 3rem;
+        font-weight: 700;
+        color: #a89474;
+      }
+      font-size: 4.5rem;
+      line-height: 3rem;
+      font-weight: 700;
+      color: #fff;
+      padding-bottom: 2rem;
+    }
+  }
+}
+
+.masonry .masonry-grid h5 {
+  color: #2E2E30;
+}
+
+.footer {
+  background-color: #EDEFF4;
+
+  &__map-container {
+    background: #EDEFF4;
+    padding: 4rem 0;
+
+    h1 {
+      span {
+        font-family: "Tinos for Powerline", sans-serif;
+        font-size: 3rem;
+        line-height: 3rem;
+        font-weight: 700;
+        color: #a89474;
+      }
+
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+      font-weight: 700;
+      color: #000;
+      padding-bottom: 2rem;
+    }
+  }
+
+  &__content {
+
+    p {
+      text-align: center;
+      color: #999999;
+      font-family: "Nunito Sans";
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+
+  &__copyright {
+    background: #2b2b2c;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+}
