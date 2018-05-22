@@ -2,3 +2,17 @@
 @import 'home';
 @import "aboutUs";
 
+a.nav-link {
+  &::after {
+    content: '';
+    display: block;
+    width: 0;
+    background: #1d2124;
+    transition: width .3s;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+

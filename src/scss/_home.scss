@@ -261,6 +261,8 @@ body {
 
   &__content {
 
+    display: flex;
+
     p {
       text-align: center;
       color: #999999;
@@ -270,10 +272,41 @@ body {
     }
   }
 
+  &__social {
+
+    padding: 2rem;
+
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+
+      li {
+        padding: 1rem;
+      }
+    }
+
+  }
+
   &__copyright {
+    display: flex;
+    align-content: center;
+    justify-content: center;
     background: #2b2b2c;
     color: #fff;
-    padding: 20px 0;
+    padding: 1rem 0;
+
+    a {
+      color: #fff;
+    }
+
+    &--gold {
+      color: #a89474;
+    }
+    p {
+      margin: 0;
+    }
   }
 
 }
